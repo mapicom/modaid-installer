@@ -6,17 +6,17 @@
   "components": {
     "downloader": {
       "type": "bundle\\http\\HttpDownloader",
-      "x": 128.0,
-      "y": 32.0,
+      "x": 128,
+      "y": 32,
       "props": {
         "useTempFile": false,
-        "threadCount": "4"
+        "threadCount": 1
       }
     },
     "dirChooser": {
       "type": "script\\DirectoryChooserScript",
-      "x": 32.0,
-      "y": 32.0,
+      "x": 32,
+      "y": 32,
       "props": {
         "title": "Выберите папку с игрой",
         "inputNode": "",
